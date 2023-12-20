@@ -240,7 +240,7 @@ $(function () {
   });
 
   let media = $(window).width();
-  if (media < 1221 && media >= 501) {
+  if (media < 1221 && media >= 391) {
     /*scroll text animation / 스크롤에 따른 텍스트 애니메이션*/
     let observer = new IntersectionObserver(
       (entries) => {
@@ -259,40 +259,6 @@ $(function () {
       },
       {
         rootMargin: "-350px 0px -40% 0px", // top right bottom left
-      }
-    );
-
-    // console.log(observer.rootMargin); //rootMargin 값 확인
-
-    let ele = document.querySelectorAll(".scroll_text");
-    ele.forEach((el) => {
-      observer.observe(el);
-    });
-  } else if (media < 501 && media >= 391) {
-    $(".profile").click(function () {
-      $(".tab_wrap2").animate({ scrollTop: 0 }, "slow");
-    });
-    $(".view").click(function () {
-      $(".tab_wrap2").animate({ scrollTop: 0 }, "slow");
-    });
-    /*scroll text animation / 스크롤에 따른 텍스트 애니메이션*/
-    let observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.style.opacity = 1;
-            entry.target.style.transform = `scale(1.2)`;
-            entry.target.classList.add("on");
-          } else {
-            entry.target.style.opacity = 0.3;
-            entry.target.style.transform = `scale(1)`;
-            entry.target.classList.remove("on");
-          }
-          entry.intersectionRatio;
-        });
-      },
-      {
-        rootMargin: "-380px 0px -37.5% 0px", // top right bottom left
       }
     );
 
