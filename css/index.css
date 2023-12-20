@@ -5942,27 +5942,7 @@ body {
     background: linear-gradient(180deg, #f39797, #b6a1e8);
   }
   #con1 .gooey_effect .circle1 .ball_wrap2 {
-    position: absolute;
-    width: 13vw;
-    height: 13vw;
-    border-radius: 50%;
-    background: #fff;
-  }
-  #con1 .gooey_effect .circle1 .ball_wrap2:before {
-    content: "";
-    position: absolute;
-    top: -6vw;
-    left: -6vw;
-    right: -6vw;
-    bottom: -6vw;
-    border-radius: 50%;
-    background: #fff;
-    z-index: -1;
-    filter: blur(40px);
-  }
-  #con1 .gooey_effect .circle1 .ball_wrap2.ball2,
-  #con1 .gooey_effect .circle1 .ball_wrap2.ball2:before {
-    background: linear-gradient(90deg, #f39797, #b6a1e8);
+    display: none;
   }
   #con1 .gooey_effect .circle1 .ball_wrap1.ball1 {
     animation: circle1_moving 5s linear infinite;
@@ -5979,26 +5959,6 @@ body {
     }
     100% {
       transform: translateY(0) rotate(720deg);
-    }
-  }
-  #con1 .gooey_effect .circle1 .ball_wrap2.ball2 {
-    animation: circle1_moving2 7s linear infinite;
-  }
-  @keyframes circle1_moving2 {
-    0% {
-      transform: translate(50%, 50%) rotate(0deg);
-    }
-    25% {
-      transform: translate(50%, 400%) rotate(-240deg);
-    }
-    50% {
-      transform: translate(50%, 50%) rotate(-480deg);
-    }
-    75% {
-      transform: translate(400%, 50%) rotate(-240deg);
-    }
-    100% {
-      transform: translate(50%, 50%) rotate(-720deg);
     }
   }
   #con1 .gooey_effect .circle2 {
@@ -6036,50 +5996,10 @@ body {
     background: linear-gradient(90deg, #88bf98, #6676c5);
   }
   #con1 .gooey_effect .circle3 .ball3_wrap2 {
-    position: absolute;
-    width: 15vw;
-    height: 15vw;
-    border-radius: 50%;
-    background: #fff;
-  }
-  #con1 .gooey_effect .circle3 .ball3_wrap2:before {
-    content: "";
-    position: absolute;
-    top: -10vw;
-    left: -10vw;
-    right: -10vw;
-    bottom: -10vw;
-    border-radius: 50%;
-    background: #fff;
-    z-index: -1;
-    filter: blur(50px);
-  }
-  #con1 .gooey_effect .circle3 .ball3_wrap2.ball3_2,
-  #con1 .gooey_effect .circle3 .ball3_wrap2.ball3_2:before {
-    background: linear-gradient(-30deg, #88bf98, #6676c5);
+    display: none;
   }
   #con1 .gooey_effect .circle3 .ball3_wrap3 {
-    position: absolute;
-    width: 15vw;
-    height: 15vw;
-    border-radius: 50%;
-    background: #fff;
-  }
-  #con1 .gooey_effect .circle3 .ball3_wrap3:before {
-    content: "";
-    position: absolute;
-    top: -10vw;
-    left: -10vw;
-    right: -10vw;
-    bottom: -10vw;
-    border-radius: 50%;
-    background: #fff;
-    z-index: -1;
-    filter: blur(50px);
-  }
-  #con1 .gooey_effect .circle3 .ball3_wrap3.ball3_3,
-  #con1 .gooey_effect .circle3 .ball3_wrap3.ball3_3:before {
-    background: linear-gradient(60deg, #88bf98, #6676c5);
+    display: none;
   }
   #con1 .gooey_effect .circle3 .ball3_wrap1.ball3_1 {
     animation: circle3_moving 3s linear infinite;
@@ -6096,34 +6016,6 @@ body {
     }
     100% {
       transform: translateY(0) rotate(720deg);
-    }
-  }
-  #con1 .gooey_effect .circle3 .ball3_wrap2.ball3_2 {
-    animation: circle3_moving2 6s linear infinite;
-  }
-  @keyframes circle3_moving2 {
-    0% {
-      transform: translate(50%, 50%) rotate(0deg);
-    }
-    50% {
-      transform: translate(60%, -270%) rotate(-240deg);
-    }
-    100% {
-      transform: translate(50%, 50%) rotate(-720deg);
-    }
-  }
-  #con1 .gooey_effect .circle3 .ball3_wrap3.ball3_3 {
-    animation: circle3_moving3 7s linear infinite;
-  }
-  @keyframes circle3_moving3 {
-    0% {
-      transform: translate(50%, 50%) rotate(0deg);
-    }
-    50% {
-      transform: translate(-280%, 180%) rotate(-240deg);
-    }
-    100% {
-      transform: translate(50%, 50%) rotate(-720deg);
     }
   }
   .about_text.on {
@@ -6543,27 +6435,7 @@ body {
     background: linear-gradient(90deg, #f39797, #b6a1e8);
   }
   #con3 .con3_circle2 .circle2_wrap2 {
-    position: absolute;
-    width: 7vw;
-    height: 7vw;
-    border-radius: 50%;
-    background: #fff;
-  }
-  #con3 .con3_circle2 .circle2_wrap2:before {
-    content: "";
-    position: absolute;
-    top: -6vw;
-    left: -6vw;
-    right: -6vw;
-    bottom: -6vw;
-    border-radius: 50%;
-    background: #fff;
-    z-index: -1;
-    filter: blur(30px);
-  }
-  #con3 .con3_circle2 .circle2_wrap2.round2_2,
-  #con3 .con3_circle2 .circle2_wrap2.round2_2:before {
-    background: linear-gradient(90deg, #f39797, #b6a1e8);
+    display: none;
   }
   #con3 .con3_circle2 .circle2_wrap1.round2_1 {
     animation: con3_circle2 3s linear infinite;
@@ -6577,23 +6449,6 @@ body {
     }
     100% {
       transform: translate(0, -25%) rotate(720deg);
-    }
-  }
-  #con3 .con3_circle2 .circle2_wrap2.round2_2 {
-    animation: con3_circle2_1 3s linear infinite;
-  }
-  @keyframes con3_circle2_1 {
-    0% {
-      transform: translate(0, 70%) rotate(0deg);
-    }
-    30% {
-      transform: translate(-10px, 150%) rotate(-240deg);
-    }
-    60% {
-      transform: translate(70px, 100%) rotate(-480deg);
-    }
-    100% {
-      transform: translate(0, 70%) rotate(-720deg);
     }
   }
   #con3 .con3_circle3 {
@@ -6627,27 +6482,7 @@ body {
     background: linear-gradient(90deg, #88bf98, #6676c5);
   }
   #con3 .con3_circle3 .circle3_wrap2 {
-    position: absolute;
-    width: 10vw;
-    height: 10vw;
-    border-radius: 50%;
-    background: #fff;
-  }
-  #con3 .con3_circle3 .circle3_wrap2:before {
-    content: "";
-    position: absolute;
-    top: -8vw;
-    left: -8vw;
-    right: -8vw;
-    bottom: -8vw;
-    border-radius: 50%;
-    background: #fff;
-    z-index: -1;
-    filter: blur(50px);
-  }
-  #con3 .con3_circle3 .circle3_wrap2.round3_2,
-  #con3 .con3_circle3 .circle3_wrap2.round3_2:before {
-    background: linear-gradient(-30deg, #88bf98, #6676c5);
+    display: none;
   }
   #con3 .con3_circle3 .circle3_wrap1.round3_1 {
     animation: con3_circle3 3s linear infinite;
@@ -6664,23 +6499,6 @@ body {
     }
     100% {
       transform: translateY(0) rotate(720deg);
-    }
-  }
-  #con3 .con3_circle3 .circle3_wrap2.round3_2 {
-    animation: con3_circle3_1 6s linear infinite;
-  }
-  @keyframes con3_circle3_1 {
-    0% {
-      transform: translate(50%, 50%) rotate(0deg);
-    }
-    30% {
-      transform: translate(70%, -50%) rotate(-240deg);
-    }
-    60% {
-      transform: translate(200%, 50%) rotate(-240deg);
-    }
-    100% {
-      transform: translate(50%, 50%) rotate(-720deg);
     }
   }
   #con3 .con3_circle4 {
@@ -6714,27 +6532,7 @@ body {
     background: linear-gradient(90deg, #ffbe85, #e891a0);
   }
   #con3 .con3_circle4 .circle4_wrap2 {
-    position: absolute;
-    width: 8vw;
-    height: 8vw;
-    border-radius: 50%;
-    background: #fff;
-  }
-  #con3 .con3_circle4 .circle4_wrap2:before {
-    content: "";
-    position: absolute;
-    top: -7vw;
-    left: -7vw;
-    right: -7vw;
-    bottom: -7vw;
-    border-radius: 50%;
-    background: #fff;
-    z-index: -1;
-    filter: blur(50px);
-  }
-  #con3 .con3_circle4 .circle4_wrap2.round4_2,
-  #con3 .con3_circle4 .circle4_wrap2.round4_2:before {
-    background: linear-gradient(-30deg, #ffbe85, #e891a0);
+    display: none;
   }
   #con3 .con3_circle4 .circle4_wrap1.round4_1 {
     animation: con3_circle4 3s linear infinite;
@@ -6751,20 +6549,6 @@ body {
     }
     100% {
       transform: translateY(0) rotate(720deg);
-    }
-  }
-  #con3 .con3_circle4 .circle4_wrap2.round4_2 {
-    animation: con3_circle4_1 4s linear infinite;
-  }
-  @keyframes con3_circle4_1 {
-    0% {
-      transform: translate(120%, 50%) rotate(0deg);
-    }
-    50% {
-      transform: translate(-70%, 100%) rotate(-240deg);
-    }
-    100% {
-      transform: translate(120%, 50%) rotate(-720deg);
     }
   }
   #con3 .con3_redesign {
@@ -6992,7 +6776,7 @@ body {
   #con3 .plan_modal .modal_close {
     position: fixed;
     right: 5%;
-    top: 2%;
+    top: 5%;
     cursor: pointer;
   }
   #con3 .plan_modal .modal_close img {
@@ -7121,7 +6905,7 @@ body {
   }
   #con4 .con4_design .design_top {
     width: 100%;
-    height: 63%;
+    height: 66%;
     border-radius: 5px;
     border: 1px solid #fff;
     background-color: rgba(255, 255, 255, 0.2);
@@ -7150,36 +6934,12 @@ body {
   }
   #con4 .con4_design .design_top .poster {
     width: 93%;
-    height: 65%;
+    height: 68%;
     position: relative;
     margin: 0px auto;
-    cursor: none;
   }
   #con4 .con4_design .design_top .poster .drag {
-    box-shadow: 0 0 1.5vw rgba(0, 0, 0, 0.2);
-    border: 1px solid rgba(225, 225, 225, 0.5);
-    backdrop-filter: blur(5px);
-    background: rgba(0, 0, 0, 0.3);
-    position: absolute;
-    left: 0;
-    top: 0;
-    transform: translate(-75%, -220%);
-    border-radius: 50%;
-    z-index: 9;
-    width: 20vw;
-    height: 20vw;
-    cursor: none;
-    pointer-events: none;
-  }
-  #con4 .con4_design .design_top .poster .drag p {
-    text-align: center;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    font-weight: bold;
-    font-size: 10px;
+    display: none;
   }
   #con4 .con4_design .design_top .poster .poster_img {
     width: 100%;
@@ -7248,7 +7008,7 @@ body {
   }
   #con4 .con4_design footer {
     width: 100%;
-    height: 35%;
+    height: 32%;
     border-radius: 5px;
     border: 1px solid #fff;
     background-color: rgba(255, 255, 255, 0.2);

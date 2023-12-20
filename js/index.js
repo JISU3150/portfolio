@@ -292,7 +292,7 @@ $(function () {
         });
       },
       {
-        rootMargin: "-380px 0px -38% 0px", // top right bottom left
+        rootMargin: "-380px 0px -37.5% 0px", // top right bottom left
       }
     );
 
