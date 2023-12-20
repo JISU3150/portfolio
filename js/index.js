@@ -289,7 +289,7 @@ $(function () {
         });
       },
       {
-        rootMargin: "-400px 0px -36% 0px", // top right bottom left
+        rootMargin: "-430px 0px -36% 0px", // top right bottom left
       }
     );
 
