@@ -189,7 +189,7 @@ $(function () {
     // Responsive breakpoints
     breakpoints: {
       1221: {
-        slidesPerView: 4.5,
+        slidesPerView: 4.2,
         spaceBetween: 30,
       },
       768: {
