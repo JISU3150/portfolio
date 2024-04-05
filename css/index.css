@@ -1604,7 +1604,10 @@ body {
     color: #111;
     transition: 0.5s;
   }
-  #con3 .plan_modal {
+  #con3 .con3_redesign .con3_bottom .con3_right .right3 .project_button {
+    width: 55%;
+  }
+  #con3 .plan_modal1 {
     width: 100%;
     height: 100%;
     position: fixed;
@@ -1616,25 +1619,58 @@ body {
     overflow: auto;
     padding: 5%;
   }
-  #con3 .plan_modal .plan_modal_box {
+  #con3 .plan_modal1 .plan_modal_box {
     width: 90%;
     background: #fff;
     border-radius: 1vw;
     margin: 0px auto;
     padding: 5%;
   }
-  #con3 .plan_modal .plan_modal_box img {
+  #con3 .plan_modal1 .plan_modal_box img {
     width: 100%;
     margin: 0px auto;
     display: block;
   }
-  #con3 .plan_modal .modal_close {
+  #con3 .plan_modal1 .modal_close {
     position: fixed;
     right: 5%;
     top: 5%;
     cursor: pointer;
   }
-  #con3 .plan_modal .modal_close img {
+  #con3 .plan_modal1 .modal_close img {
+    width: 2.5vw;
+  }
+  #con3 .plan_modal2 {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    z-index: 999;
+    display: none;
+    background: rgba(0, 0, 0, 0.7);
+    overflow: auto;
+    padding: 5%;
+  }
+  #con3 .plan_modal2 .plan_modal_box {
+    width: 90%;
+    background: #fff;
+    border-radius: 1vw;
+    margin: 0px auto;
+    padding: 5%;
+  }
+  #con3 .plan_modal2 .plan_modal_box img {
+    width: 100%;
+    margin: 0px auto;
+    display: block;
+  }
+  #con3 .plan_modal2 .modal_close {
+    position: fixed;
+    right: 5%;
+    top: 5%;
+    cursor: pointer;
+  }
+  #con3 .plan_modal2 .modal_close img {
     width: 2.5vw;
   }
   #con3 .gooey_effect1.on {
@@ -3520,7 +3556,10 @@ body {
     color: #111;
     transition: 0.5s;
   }
-  #con3 .plan_modal {
+  #con3 .con3_redesign .con3_bottom .con3_right .right3 .project_button {
+    width: 60%;
+  }
+  #con3 .plan_modal1 {
     width: 100%;
     height: 100%;
     position: fixed;
@@ -3532,25 +3571,58 @@ body {
     overflow: auto;
     padding: 5%;
   }
-  #con3 .plan_modal .plan_modal_box {
+  #con3 .plan_modal1 .plan_modal_box {
     width: 95%;
     background: #fff;
     border-radius: 1vw;
     margin: 0px auto;
     padding: 3%;
   }
-  #con3 .plan_modal .plan_modal_box img {
+  #con3 .plan_modal1 .plan_modal_box img {
     width: 100%;
     margin: 0px auto;
     display: block;
   }
-  #con3 .plan_modal .modal_close {
+  #con3 .plan_modal1 .modal_close {
     position: fixed;
     right: 4%;
     top: 4%;
     cursor: pointer;
   }
-  #con3 .plan_modal .modal_close img {
+  #con3 .plan_modal1 .modal_close img {
+    width: 3vw;
+  }
+  #con3 .plan_modal2 {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    z-index: 999;
+    display: none;
+    background: rgba(0, 0, 0, 0.7);
+    overflow: auto;
+    padding: 5%;
+  }
+  #con3 .plan_modal2 .plan_modal_box {
+    width: 95%;
+    background: #fff;
+    border-radius: 1vw;
+    margin: 0px auto;
+    padding: 3%;
+  }
+  #con3 .plan_modal2 .plan_modal_box img {
+    width: 100%;
+    margin: 0px auto;
+    display: block;
+  }
+  #con3 .plan_modal2 .modal_close {
+    position: fixed;
+    right: 4%;
+    top: 4%;
+    cursor: pointer;
+  }
+  #con3 .plan_modal2 .modal_close img {
     width: 3vw;
   }
   #con3 .gooey_effect1.on {
@@ -5276,7 +5348,10 @@ body {
     color: #111;
     transition: 0.5s;
   }
-  #con3 .plan_modal {
+  #con3 .con3_redesign .con3_bottom .con3_right .right3 .project_button {
+    width: 60%;
+  }
+  #con3 .plan_modal1 {
     width: 100%;
     height: 100%;
     position: fixed;
@@ -5288,24 +5363,56 @@ body {
     overflow: auto;
     padding: 5%;
   }
-  #con3 .plan_modal .plan_modal_box {
+  #con3 .plan_modal1 .plan_modal_box {
     width: 95%;
     background: #fff;
     border-radius: 1vw;
     margin: 0px auto;
   }
-  #con3 .plan_modal .plan_modal_box img {
+  #con3 .plan_modal1 .plan_modal_box img {
     width: 100%;
     margin: 0px auto;
     display: block;
   }
-  #con3 .plan_modal .modal_close {
+  #con3 .plan_modal1 .modal_close {
     position: fixed;
     right: 4%;
     top: 4%;
     cursor: pointer;
   }
-  #con3 .plan_modal .modal_close img {
+  #con3 .plan_modal1 .modal_close img {
+    width: 3.5vw;
+  }
+  #con3 .plan_modal2 {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    z-index: 999;
+    display: none;
+    background: rgba(0, 0, 0, 0.7);
+    overflow: auto;
+    padding: 5%;
+  }
+  #con3 .plan_modal2 .plan_modal_box {
+    width: 95%;
+    background: #fff;
+    border-radius: 1vw;
+    margin: 0px auto;
+  }
+  #con3 .plan_modal2 .plan_modal_box img {
+    width: 100%;
+    margin: 0px auto;
+    display: block;
+  }
+  #con3 .plan_modal2 .modal_close {
+    position: fixed;
+    right: 4%;
+    top: 4%;
+    cursor: pointer;
+  }
+  #con3 .plan_modal2 .modal_close img {
     width: 3.5vw;
   }
   #con3 .gooey_effect1.on {
@@ -6750,7 +6857,10 @@ body {
     color: #111;
     transition: 0.5s;
   }
-  #con3 .plan_modal {
+  #con3 .con3_redesign .con3_bottom .con3_right .right3 .project_button {
+    width: 60%;
+  }
+  #con3 .plan_modal1 {
     width: 100%;
     height: 100%;
     position: fixed;
@@ -6762,24 +6872,56 @@ body {
     overflow: auto;
     padding: 5%;
   }
-  #con3 .plan_modal .plan_modal_box {
+  #con3 .plan_modal1 .plan_modal_box {
     width: 95%;
     background: #fff;
     border-radius: 1vw;
     margin: 0px auto;
   }
-  #con3 .plan_modal .plan_modal_box img {
+  #con3 .plan_modal1 .plan_modal_box img {
     width: 100%;
     margin: 0px auto;
     display: block;
   }
-  #con3 .plan_modal .modal_close {
+  #con3 .plan_modal1 .modal_close {
     position: fixed;
     right: 0%;
     top: 5%;
     cursor: pointer;
   }
-  #con3 .plan_modal .modal_close img {
+  #con3 .plan_modal1 .modal_close img {
+    width: 5vw;
+  }
+  #con3 .plan_modal2 {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    z-index: 999;
+    display: none;
+    background: rgba(0, 0, 0, 0.7);
+    overflow: auto;
+    padding: 5%;
+  }
+  #con3 .plan_modal2 .plan_modal_box {
+    width: 95%;
+    background: #fff;
+    border-radius: 1vw;
+    margin: 0px auto;
+  }
+  #con3 .plan_modal2 .plan_modal_box img {
+    width: 100%;
+    margin: 0px auto;
+    display: block;
+  }
+  #con3 .plan_modal2 .modal_close {
+    position: fixed;
+    right: 0%;
+    top: 5%;
+    cursor: pointer;
+  }
+  #con3 .plan_modal2 .modal_close img {
     width: 5vw;
   }
   #con3 .gooey_effect1.on {

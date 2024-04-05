@@ -147,15 +147,25 @@ $(function () {
   });
 
   /*con3 모달박스*/
-  $(".plan").click(function () {
+  $(".plan1").click(function () {
     $("body").css({ overflowY: "hidden" });
     $(".plan_modal").animate({ scrollTop: 0 }, "slow");
     let i = $(this).index();
-    $(".plan_modal").eq(i).css({ display: "block" });
+    $(".plan_modal1").css({ display: "block" });
   });
   $(".modal_close").click(function () {
     $("body").css({ overflowY: "auto" });
-    $(".plan_modal").css({ display: "none" });
+    $(".plan_modal1").css({ display: "none" });
+  });
+  $(".plan2").click(function () {
+    $("body").css({ overflowY: "hidden" });
+    $(".plan_modal").animate({ scrollTop: 0 }, "slow");
+    let i = $(this).index();
+    $(".plan_modal2").css({ display: "block" });
+  });
+  $(".modal_close").click(function () {
+    $("body").css({ overflowY: "auto" });
+    $(".plan_modal2").css({ display: "none" });
   });
 
   /*con4 모달박스*/
