@@ -1,6 +1,20 @@
 $(function () {
   $("html, body").animate({ scrollTop: 0 }, "slow");
 
+  /*resize*/
+  const preHeight = $(window).height();
+
+  $(window).on("resize", function () {
+    reHeight();
+    function reHeight() {
+      let curHeight = $(window).height();
+
+      if (curHeight !== preHeight) {
+        location.reload();
+      }
+    }
+  });
+
   /*profile, view버튼 클릭시 profile_wrap 펼쳐지는 효과*/
   $(".profile").click(function () {
     $(".tab_wrap2").animate({ scrollTop: 10 }, "slow");
@@ -203,7 +217,7 @@ $(function () {
         spaceBetween: 30,
       },
       768: {
-        slidesPerView: 4,
+        slidesPerView: 3.7,
         spaceBetween: 20,
       },
       501: {
@@ -268,7 +282,7 @@ $(function () {
         });
       },
       {
-        rootMargin: "-350px 0px -40% 0px", // top right bottom left
+        rootMargin: "-360px 0px -40% 0px", // top right bottom left
       }
     );
 
@@ -285,6 +299,7 @@ $(function () {
     $(".view").click(function () {
       $(".tab_wrap2").animate({ scrollTop: 0 }, "slow");
     });
+
     /*scroll text animation / 스크롤에 따른 텍스트 애니메이션*/
     let observer = new IntersectionObserver(
       (entries) => {
