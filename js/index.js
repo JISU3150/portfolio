@@ -150,7 +150,7 @@ $(function () {
   $(".left_a").click(function () {
     c--;
     if (c < 0) {
-      c = 3;
+      c = 2;
     }
     $(".redesign_text").removeClass("on");
     $(".redesign_text").eq(c).addClass("on");
