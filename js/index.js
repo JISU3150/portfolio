@@ -181,6 +181,16 @@ $(function () {
     $("body").css({ overflowY: "auto" });
     $(".plan_modal2").css({ display: "none" });
   });
+  $(".plan3").click(function () {
+    $("body").css({ overflowY: "hidden" });
+    $(".plan_modal").animate({ scrollTop: 0 }, "slow");
+    let i = $(this).index();
+    $(".plan_modal3").css({ display: "block" });
+  });
+  $(".modal_close").click(function () {
+    $("body").css({ overflowY: "auto" });
+    $(".plan_modal3").css({ display: "none" });
+  });
 
   /*con4 모달박스*/
   $(".poster_img li").click(function () {
